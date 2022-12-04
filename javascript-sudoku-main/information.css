@@ -1,0 +1,50 @@
+    html{
+    background: linear-gradient(180deg, #c00062 0%, #ea9600 100%);
+    min-height: 100%;
+        }
+
+    body{
+        background-color: transparent;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+div{
+    width: 89%;
+    height: 80%;
+    max-width: 1280px;
+    align-items: left;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom:20px;
+    background-color: white;
+
+}
+.start-btn{
+    height: 50px;
+    width: 30%;
+    background-color: var(--bg-main);
+    color: var(--color-txt);
+    border-radius: var(--border-radius);
+    display: grid;
+    place-items: center;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    margin: auto;
+    border-color: transparent;
+}
+
+:root{
+    --bg-main: skyblue;
+    --color-txt: #000;
+    --border-radius: 10px;
+    --font-size-lg: 2rem;
+}
+
+
+
